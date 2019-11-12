@@ -80,7 +80,7 @@ var layout = {
       y: 0.23,
       sizex: 0.5,
       sizey: 0.5,
-      source: "http://christypresler.com/assets/images/blog/2013/11/giraffe.jpg",
+      source: "bear.png",
       xanchor: "right",
       xref: "paper",
       yanchor: "bottom",
