@@ -1,5 +1,5 @@
 
-// // Control -> pre 
+// Control -> pre 
 
 // var trace1 = {
 //   x: [
@@ -57,7 +57,9 @@
 // };
 
 
-// // Control -> pre and post
+// // Control -> pre 
+// // Treatment -> pre
+
 
 // var trace1 = {
 //   x: [
@@ -73,7 +75,7 @@
 //   x: [
 //     ['Pre-intervention'], ['Treatment']
 //   ], 
-//   y: [0], 
+//   y: [48.2], 
 //   name: 'Treatment', 
 //   type: 'bar',
 //   marker: { color: 'rgb(0, 153, 51)'}
@@ -83,7 +85,7 @@
 //   x: [
 //     ['Post-intervention'], ['Control']
 //   ], 
-//   y: [43.2], 
+//   y: [0], 
 //   name: 'Control', 
 //   type: 'bar',
 //   marker: {color: 'rgb(190, 200, 209)'}
@@ -111,20 +113,8 @@
 //       family: 'Tw Cen MT',
 //       size: 14},
 //   yaxis: {title: 'Dog Waste (average daily observations)'},
-//   title: 'Change in Dog Waste Observations',
-//   annotations: [
-//         {
-//           x: 2,
-//           y: 43,
-//           xref: 'x',
-//           yref: 'y',
-//           text: '-7.3 observations',
-//           showarrow: true,
-//           arrowhead: 1,
-//           ax: 0,
-//           ay: -40
-//         }
-//       ]
+//   title: 'Change in Dog Waste Observations'
+  
 // };
 
 

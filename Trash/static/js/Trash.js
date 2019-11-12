@@ -73,7 +73,7 @@
 //   x: [
 //     ['Pre-intervention'], ['Treatment']
 //   ], 
-//   y: [0], 
+//   y: [48.2], 
 //   name: 'Treatment', 
 //   type: 'bar',
 //   marker: { color: 'rgb(0, 153, 51)'}
@@ -83,7 +83,7 @@
 //   x: [
 //     ['Post-intervention'], ['Control']
 //   ], 
-//   y: [63.7], 
+//   y: [0], 
 //   name: 'Control', 
 //   type: 'bar',
 //   marker: {color: 'rgb(190, 200, 209)'}
@@ -111,25 +111,12 @@
 //       size: 14},
 // yaxis: {range: [0, 64],
 //     title: 'Trash (average daily observations)'},
-//   title: 'Change in Trash Observations',
-//     annotations: [
-//           {
-//             x: 2,
-//             y: 63,
-//             xref: 'x',
-//             yref: 'y',
-//             text: '13.2 observations',
-//             showarrow: true,
-//             arrowhead: 1,
-//             ax: 0,
-//             ay: 50
-//           },   
-//       ]
+//   title: 'Change in Trash Observations'
 // };
 
 
-// // Control --> pre and post
-// // Treatment --> pre 
+// Control --> pre and post
+// Treatment --> pre 
 
 // var trace1 = {
 //     x: [
